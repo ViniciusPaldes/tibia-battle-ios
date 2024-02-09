@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		476B312D2B75A305008278FE /* TibiaTopTrumpsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B312C2B75A305008278FE /* TibiaTopTrumpsApp.swift */; };
+		476B312F2B75A305008278FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B312E2B75A305008278FE /* ContentView.swift */; };
+		476B31312B75A305008278FE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B31302B75A305008278FE /* Item.swift */; };
+		476B31332B75A307008278FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476B31322B75A307008278FE /* Assets.xcassets */; };
+		476B31362B75A307008278FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476B31352B75A307008278FE /* Preview Assets.xcassets */; };
+		476B31402B75A307008278FE /* TibiaTopTrumpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B313F2B75A307008278FE /* TibiaTopTrumpsTests.swift */; };
+		476B314A2B75A307008278FE /* TibiaTopTrumpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B31492B75A307008278FE /* TibiaTopTrumpsUITests.swift */; };
+		476B314C2B75A307008278FE /* TibiaTopTrumpsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B314B2B75A307008278FE /* TibiaTopTrumpsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		476B313C2B75A307008278FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476B31212B75A305008278FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476B31282B75A305008278FE;
+			remoteInfo = TibiaTopTrumps;
+		};
+		476B31462B75A307008278FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476B31212B75A305008278FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476B31282B75A305008278FE;
+			remoteInfo = TibiaTopTrumps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		476B31292B75A305008278FE /* TibiaTopTrumps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TibiaTopTrumps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		476B312C2B75A305008278FE /* TibiaTopTrumpsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TibiaTopTrumpsApp.swift; sourceTree = "<group>"; };
+		476B312E2B75A305008278FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		476B31302B75A305008278FE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		476B31322B75A307008278FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		476B31352B75A307008278FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		476B313B2B75A307008278FE /* TibiaTopTrumpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TibiaTopTrumpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		476B313F2B75A307008278FE /* TibiaTopTrumpsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TibiaTopTrumpsTests.swift; sourceTree = "<group>"; };
+		476B31452B75A307008278FE /* TibiaTopTrumpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TibiaTopTrumpsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		476B31492B75A307008278FE /* TibiaTopTrumpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TibiaTopTrumpsUITests.swift; sourceTree = "<group>"; };
+		476B314B2B75A307008278FE /* TibiaTopTrumpsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TibiaTopTrumpsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		476B31262B75A305008278FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476B31382B75A307008278FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476B31422B75A307008278FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		476B31202B75A305008278FE = {
+			isa = PBXGroup;
+			children = (
+				476B312B2B75A305008278FE /* TibiaTopTrumps */,
+				476B313E2B75A307008278FE /* TibiaTopTrumpsTests */,
+				476B31482B75A307008278FE /* TibiaTopTrumpsUITests */,
+				476B312A2B75A305008278FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		476B312A2B75A305008278FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				476B31292B75A305008278FE /* TibiaTopTrumps.app */,
+				476B313B2B75A307008278FE /* TibiaTopTrumpsTests.xctest */,
+				476B31452B75A307008278FE /* TibiaTopTrumpsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		476B312B2B75A305008278FE /* TibiaTopTrumps */ = {
+			isa = PBXGroup;
+			children = (
+				476B312C2B75A305008278FE /* TibiaTopTrumpsApp.swift */,
+				476B312E2B75A305008278FE /* ContentView.swift */,
+				476B31302B75A305008278FE /* Item.swift */,
+				476B31322B75A307008278FE /* Assets.xcassets */,
+				476B31342B75A307008278FE /* Preview Content */,
+			);
+			path = TibiaTopTrumps;
+			sourceTree = "<group>";
+		};
+		476B31342B75A307008278FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				476B31352B75A307008278FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		476B313E2B75A307008278FE /* TibiaTopTrumpsTests */ = {
+			isa = PBXGroup;
+			children = (
+				476B313F2B75A307008278FE /* TibiaTopTrumpsTests.swift */,
+			);
+			path = TibiaTopTrumpsTests;
+			sourceTree = "<group>";
+		};
+		476B31482B75A307008278FE /* TibiaTopTrumpsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				476B31492B75A307008278FE /* TibiaTopTrumpsUITests.swift */,
+				476B314B2B75A307008278FE /* TibiaTopTrumpsUITestsLaunchTests.swift */,
+			);
+			path = TibiaTopTrumpsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		476B31282B75A305008278FE /* TibiaTopTrumps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476B314F2B75A307008278FE /* Build configuration list for PBXNativeTarget "TibiaTopTrumps" */;
+			buildPhases = (
+				476B31252B75A305008278FE /* Sources */,
+				476B31262B75A305008278FE /* Frameworks */,
+				476B31272B75A305008278FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TibiaTopTrumps;
+			productName = TibiaTopTrumps;
+			productReference = 476B31292B75A305008278FE /* TibiaTopTrumps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		476B313A2B75A307008278FE /* TibiaTopTrumpsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476B31522B75A307008278FE /* Build configuration list for PBXNativeTarget "TibiaTopTrumpsTests" */;
+			buildPhases = (
+				476B31372B75A307008278FE /* Sources */,
+				476B31382B75A307008278FE /* Frameworks */,
+				476B31392B75A307008278FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476B313D2B75A307008278FE /* PBXTargetDependency */,
+			);
+			name = TibiaTopTrumpsTests;
+			productName = TibiaTopTrumpsTests;
+			productReference = 476B313B2B75A307008278FE /* TibiaTopTrumpsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		476B31442B75A307008278FE /* TibiaTopTrumpsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476B31552B75A307008278FE /* Build configuration list for PBXNativeTarget "TibiaTopTrumpsUITests" */;
+			buildPhases = (
+				476B31412B75A307008278FE /* Sources */,
+				476B31422B75A307008278FE /* Frameworks */,
+				476B31432B75A307008278FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476B31472B75A307008278FE /* PBXTargetDependency */,
+			);
+			name = TibiaTopTrumpsUITests;
+			productName = TibiaTopTrumpsUITests;
+			productReference = 476B31452B75A307008278FE /* TibiaTopTrumpsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		476B31212B75A305008278FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					476B31282B75A305008278FE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					476B313A2B75A307008278FE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 476B31282B75A305008278FE;
+					};
+					476B31442B75A307008278FE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 476B31282B75A305008278FE;
+					};
+				};
+			};
+			buildConfigurationList = 476B31242B75A305008278FE /* Build configuration list for PBXProject "TibiaTopTrumps" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 476B31202B75A305008278FE;
+			productRefGroup = 476B312A2B75A305008278FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				476B31282B75A305008278FE /* TibiaTopTrumps */,
+				476B313A2B75A307008278FE /* TibiaTopTrumpsTests */,
+				476B31442B75A307008278FE /* TibiaTopTrumpsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		476B31272B75A305008278FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476B31362B75A307008278FE /* Preview Assets.xcassets in Resources */,
+				476B31332B75A307008278FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476B31392B75A307008278FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476B31432B75A307008278FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		476B31252B75A305008278FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476B312F2B75A305008278FE /* ContentView.swift in Sources */,
+				476B31312B75A305008278FE /* Item.swift in Sources */,
+				476B312D2B75A305008278FE /* TibiaTopTrumpsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476B31372B75A307008278FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476B31402B75A307008278FE /* TibiaTopTrumpsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476B31412B75A307008278FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476B314A2B75A307008278FE /* TibiaTopTrumpsUITests.swift in Sources */,
+				476B314C2B75A307008278FE /* TibiaTopTrumpsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		476B313D2B75A307008278FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476B31282B75A305008278FE /* TibiaTopTrumps */;
+			targetProxy = 476B313C2B75A307008278FE /* PBXContainerItemProxy */;
+		};
+		476B31472B75A307008278FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476B31282B75A305008278FE /* TibiaTopTrumps */;
+			targetProxy = 476B31462B75A307008278FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		476B314D2B75A307008278FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		476B314E2B75A307008278FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		476B31502B75A307008278FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TibiaTopTrumps/Preview Content\"";
+				DEVELOPMENT_TEAM = P9HF8KRGJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tibia.toptrumps.TibiaTopTrumps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		476B31512B75A307008278FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TibiaTopTrumps/Preview Content\"";
+				DEVELOPMENT_TEAM = P9HF8KRGJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tibia.toptrumps.TibiaTopTrumps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		476B31532B75A307008278FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9HF8KRGJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tibia.toptrumps.TibiaTopTrumpsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TibiaTopTrumps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TibiaTopTrumps";
+			};
+			name = Debug;
+		};
+		476B31542B75A307008278FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9HF8KRGJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tibia.toptrumps.TibiaTopTrumpsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TibiaTopTrumps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TibiaTopTrumps";
+			};
+			name = Release;
+		};
+		476B31562B75A307008278FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9HF8KRGJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tibia.toptrumps.TibiaTopTrumpsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TibiaTopTrumps;
+			};
+			name = Debug;
+		};
+		476B31572B75A307008278FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9HF8KRGJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tibia.toptrumps.TibiaTopTrumpsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TibiaTopTrumps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		476B31242B75A305008278FE /* Build configuration list for PBXProject "TibiaTopTrumps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476B314D2B75A307008278FE /* Debug */,
+				476B314E2B75A307008278FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476B314F2B75A307008278FE /* Build configuration list for PBXNativeTarget "TibiaTopTrumps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476B31502B75A307008278FE /* Debug */,
+				476B31512B75A307008278FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476B31522B75A307008278FE /* Build configuration list for PBXNativeTarget "TibiaTopTrumpsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476B31532B75A307008278FE /* Debug */,
+				476B31542B75A307008278FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476B31552B75A307008278FE /* Build configuration list for PBXNativeTarget "TibiaTopTrumpsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476B31562B75A307008278FE /* Debug */,
+				476B31572B75A307008278FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 476B31212B75A305008278FE /* Project object */;
+}
